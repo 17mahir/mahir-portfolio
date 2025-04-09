@@ -1,0 +1,6 @@
+Element	Suggested Color / Style
+Main Title (h1)   	#00FFFF             – bright neon cyan with glow
+Subtitles (h2/h3)	  #33FFF5 or #00CED1  – softer cyan / neon blue
+Body Text	          #D9FFFF             – pale, low-glow white-blue for readability
+Labels / Badges	    #00FFB3 or #CCFF00  – mint green or light lime
+Links / Highlight 	#39FF14                (neon green) or animated underline

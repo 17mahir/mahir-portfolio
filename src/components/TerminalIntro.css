@@ -1,0 +1,55 @@
+.terminal-intro {
+  color: #E0FFFF;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.2rem;
+  margin-top: 170px;
+  margin-bottom: 80px;
+  padding: 40px 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 12px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  backdrop-filter: blur(4px);
+}
+
+.terminal-line {
+  font-size: 1.5rem;
+  color: #00FFFF;
+  text-shadow: 0 0 5px #00FFFF;
+  margin-bottom: 20px;
+}
+
+.career-objective {
+  font-size: 1rem;
+  color: #D9FFFF;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cursor {
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.resume-btn {
+  background: transparent;
+  border: 2px solid #00FFFF;
+  padding: 10px 20px;
+  color: #00FFFF;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.resume-btn:hover {
+  background-color: #00ffff22;
+  box-shadow: 0 0 10px #00FFFF;
+}

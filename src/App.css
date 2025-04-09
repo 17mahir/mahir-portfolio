@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #99FFFF;  /* Soft Cyan */
+  
+  font-size: 1.1rem;
+  line-height: 1.6;
+  
+  font-family: 'Roboto Mono', monospace;
+  scroll-behavior: smooth;
+}
+.app {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+

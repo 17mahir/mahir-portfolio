@@ -1,0 +1,133 @@
+.career-container {
+    min-height: 100vh;
+    padding: 80px 20px 40px;
+    font-family: 'Roboto Mono', monospace;
+    color: #99FFFF;
+    background-color: rgba(0, 0, 0, 0.195);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .section {
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid #00ffff44;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 0 10px #00FFFF33;
+  }
+  
+  .section h2 {
+    color: #00FFFF;
+    margin-bottom: 16px;
+    font-size: 1.8rem;
+    border-bottom: 1px solid #00ffff33;
+    padding-bottom: 8px;
+  }
+  
+  .education-item,
+  .work-item {
+    margin-bottom: 16px;
+  }
+  
+  .item-title {
+    font-size: 1.2rem;
+    color: #00FFFF;
+    font-weight: bold;
+  }
+  
+  .item-subtitle {
+    font-size: 1rem;
+    color: #99FFFF;
+    margin-top: 4px;
+  }
+  
+  .badge {
+    display: inline-block;
+    background-color: #00FFFF;
+    color: #000;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    margin-top: 6px;
+    margin-right: 15px;
+    
+  }
+  
+  .technologies {
+    margin-top: 8px;
+    color: #99ffffcc;
+    font-size: 0.95rem;
+  }
+  
+  .certifications-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .certification-tag {
+    background-color: #001f1f;
+    color: #00FFFF;
+    border: 1px solid #00FFFF55;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    transition: background 0.3s;
+  }
+  
+  .certification-tag:hover {
+    background-color: #003f3f;
+    cursor: default;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .career-container {
+      padding: 100px 16px 40px;
+    }
+  
+    .section h2 {
+      font-size: 1.4rem;
+    }
+  
+    .item-title {
+      font-size: 1.05rem;
+    }
+  
+    .badge {
+      font-size: 0.75rem;
+    }
+  }
+
+  h1 {
+    
+    background-color: #0000001a;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 0 0 10px #00ffffaa;
+  }
+  
+  h2, h3 {
+    color: #33FFF5;
+    font-size: 1.5rem;
+    
+  }
+  
+  p, li {
+    color: #D9FFFF;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .badge {
+    background: #00FFB3;
+    color: #000;
+    font-size: 0.85rem;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+  

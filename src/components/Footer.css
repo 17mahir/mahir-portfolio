@@ -1,0 +1,17 @@
+/* Footer.css */
+.footer {
+    background-color: #0a0a0a;
+    color: #00ffffaa;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #00ffff44;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 8px rgba(0, 255, 255, 0.2);
+  }
+  
+  .footer p {
+    margin: 0;
+    line-height: 1.6;
+  }
+  
